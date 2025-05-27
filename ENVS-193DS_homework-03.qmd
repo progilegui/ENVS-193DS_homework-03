@@ -1,0 +1,49 @@
+---
+title: "ENVS-193DS_homework-03"
+author: "Jose Cardoso"
+date: "26/05/2025"
+href: <https://github.com/progilegui/ENVS-193DS_homework-03>
+format: docx
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Set Up
+
+```{r}
+#| message: false
+
+# insert code to read in packages here
+library(tidyverse)
+library(janitor)
+library(here)
+library(flextable)
+
+# insert code to read in your data here
+ev_data <- read_csv("/Users/admin/Documents/github/ENVS-193DS_homework-03/data/EV_Mode_2.csv")
+```
+
+# Problem 1: Personal Data
+
+## a. Data summarizing
+
+My data can be summarized by counting observations, which are the times it takes for the engine to switch to EV modem and comparing between two groups, which are the sun being out or not being out. This summary is appropriate because the presence of the sun in the sky is a proxy for average outside air temperature and in turn the car engine, which is either cold when the sun is not present or warm when it is.
+
+## b. Visualization
+
+```{r}
+ggplot(data = ev_data, # use the ev_data data frame
+       aes(x = Presence_of_the_Sun, # Sun presence on the x-axis
+           y = EV_switch_time, # time until ev switch on the y-axis
+           color = Presence_of_the_Sun))+ # color by if sun is present
+    geom_boxplot()+ # first layer is the boxplot
+    geom_jitter(width = 0.2, # jitter in the x-axis
+                height = 0)+ # no jitter in the y-axis
+    labs(x = "Presence of the Sun", # relabeling the x-axis
+         y = "Time until EV mode switch")+ #relabeling the y-axis
+       scale_color_manual(values = c("Yes" = "steelblue", # change the default color
+                                    "No" = "darkgreen")) 
+```
