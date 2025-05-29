@@ -3,8 +3,12 @@ title: "ENVS-193DS_homework-03"
 author: "Jose Cardoso"
 date: "26/05/2025"
 href: <https://github.com/progilegui/ENVS-193DS_homework-03>
-format: html
-editor: visual
+format:
+  html:
+    toc: true # use this to display a table of contents
+execute:
+  message: false # use this to make sure messages don't show up
+  warning: false # use this to make sure warnings don't show up
 ---
 
 ## Quarto
