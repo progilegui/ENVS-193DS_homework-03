@@ -9,4 +9,4 @@ Personal data in the data folder
 
 ## Rendered Output
 
-Link to the rendered html output is 
+Link to the rendered html output is [here](https://progilegui.github.io/ENVS-193DS_homework-03/ENVS-193DS_homework-03.html).
