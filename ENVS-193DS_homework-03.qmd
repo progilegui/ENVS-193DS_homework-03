@@ -11,10 +11,6 @@ execute:
   warning: false # use this to make sure warnings don't show up
 ---
 
-## Quarto
-
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
-
 ## Set Up
 
 ```{r}
