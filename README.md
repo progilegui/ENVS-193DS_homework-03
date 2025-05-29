@@ -9,4 +9,4 @@ Personal data and images are in the data folder. Quarto and html file are in the
 
 ## Rendered Output
 
-Link to the rendered html output is [here](https://progilegui.github.io/ENVS-193DS_homework-03/ENVS-193DS_homework-03.html).
+Link to the rendered html output is [here](https://progilegui.github.io/ENVS-193DS_homework-03/code/ENVS-193DS_homework-03.html).

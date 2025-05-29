@@ -85,7 +85,7 @@ An affective visualization for my data can look like a connected scatter plot, w
 
 ## b. Sketch
 
-![](data/sketch.jpeg)
+![](images/sketch.jpeg)
 
 ## c. Draft
 
@@ -121,7 +121,7 @@ ggplot(data = ev_data,# use the ev_data data frame
 
 ANOVA and Least Significant Difference are the tests included in this paper. The response variables are alkaloid content and growth parameters (height, thousand-seed weight, etc.). The predictor variable is nitrogen dosage.
 
-![](data/stat_crit.png)
+![](images/stat_crit.png)
 
 ## b. Visual clarity
 
