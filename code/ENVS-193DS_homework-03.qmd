@@ -69,6 +69,10 @@ ev_clean <- bind_rows(ev_yes, ev_no) # Combine them (yes first, then no)
 
 ev_table <- flextable(ev_clean) #make flex table
 
+ev_table <- labelizor( # change the column titles
+  x = ev_table,
+  labels = c("Presence_of_the_Sun" = "Presence of the Sun", "EV_switch_time" = "Time until EV mode switch (min)")
+)
 
 ev_table
 ```

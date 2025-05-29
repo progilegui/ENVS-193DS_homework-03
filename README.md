@@ -5,7 +5,7 @@ Homework 3: creating visualizations using personal data and revisiting the stati
 
 ## Data and file information
 
-Personal data in the data folder
+Personal data and images are in the data folder. Quarto and html file are in the code folder.
 
 ## Rendered Output
 
