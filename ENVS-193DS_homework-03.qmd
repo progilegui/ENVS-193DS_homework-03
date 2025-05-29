@@ -87,20 +87,26 @@ ggplot(data = ev_data,# use the ev_data data frame
   labs(x = "Time since engine was last shutoff (hr:min)",# relabeling x-axis
       y = "Time until EV mode switch (min:sec)")+ #relabeling y-axis
   theme(panel.grid.major = element_blank(), # remove gridlines 
-        panel.grid.minor = element_blank())
+        panel.grid.minor = element_blank(),
+        panel.background = element_rect(fill = 'lightcoral', colour = 'red'))
 ```
 
 ## d. Artist Statement
-Content: I am showing that the time the engine takes to switch to EV mode increases as the time the engine was last shutoff increases and the time of day increases.
-Influences: The gradient used in Trends in Global Methane Emissions on the Environmental Graphiti page influenced my choice in using the gradient color to represent a time of day when the Sun is not out.
-Form of the work: I chose to use code to make my draft.
-Process: I took code from homework 2, updated it with my new data, and played around with the gradient coloring.
+- Content: I am showing that the time the engine takes to switch to EV mode increases as the time the engine was last shutoff increases and the time of day increases.
+
+- Influences: The gradient used in Trends in Global Methane Emissions on the Environmental Graphiti page influenced my choice in using the gradient color to represent a time of day when the Sun is not out.
+
+- Form of the work: I chose to use code to make my draft.
+
+- Process: I took code from homework 2, updated it with my new data, and played around with the gradient coloring.
 
 # Problem 3: Statistical critique
 
 ## a. Revist
 
 ANOVA and Least Significant Difference are the tests included in this paper. The response variables are alkaloid content and growth parameters (height, thousand-seed weight, etc.). The predictor variable is nitrogen dosage. 
+
+![Data](/Users/admin/Documents/github/ENVS-193DS_homework-03/data/stat_crit.png)
 
 ## b. Visual clarity
 
